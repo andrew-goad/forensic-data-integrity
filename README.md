@@ -1,7 +1,7 @@
 # Universal Data Integrity & Forensic Diagnostic Engine
 **"No Cold Handoffs" — Engineering Zero-Defect, Audit-Ready Results.**
 
-![Universal Forensic Integrity Dashboard](https://raw.githubusercontent.com/andrew-goad/forensic-data-integrity/main/docs/executive_dashboard_preview.png)
+![Universal Forensic Integrity Dashboard](https://raw.githubusercontent.com/andrew-goad/forensic-data-integrity/main/docs/executive_dashboard_preview_forensic_integrity.jpg)
 
 ---
 
@@ -13,8 +13,8 @@ I engineered this Python-driven diagnostic engine to automate pipeline trust and
 ---
 
 ### 🛡️ The "Gatekeeper" Framework
-* **Forensic Anomaly Detection:** (Top Left Chart) Utilizes statistical drift detection to identify non-random noise and "Observed Anomalies" that traditional descriptive tools miss.
-* **Multi-Dimensional Quality Profile:** (Radar Chart) Quantifies dataset health across five critical pillars: **Density, Uniqueness, Format Accuracy, Relational Logic, and Statistical Stability.**
+* **Forensic Anomaly Detection:** Utilizes statistical drift detection to identify non-random noise and "Observed Anomalies" (e.g., hidden null-equivalents like '???' or 'X1') that traditional descriptive tools miss.
+* **Multi-Dimensional Quality Profile:** Quantifies dataset health across five critical pillars: **Density, Uniqueness, Format Accuracy, Relational Logic, and Statistical Stability.**
 * **Quantifiable ROI:** Demonstrates the impact of automated remediation by tracking the delta between initial integrity and final audit scores (e.g., **74.1% ➔ 96.8%**).
 
 ---
@@ -28,8 +28,11 @@ I engineered this Python-driven diagnostic engine to automate pipeline trust and
 ---
 
 ### 🛠️ Technical Rigor & Architecture
-* **Forensic Auditing:** Custom logic to detect format inconsistency and "null-equivalent" strings (e.g., 'none', '???', 'N/A').
-* **Automated Scoring:** Proprietary calculation of a **Dataset Integrity Score** and a **Simulated Remediation Score** to quantify the ROI of data governance.
+* **Forensic Auditing:** Custom logic to detect format inconsistency and "null-equivalent" strings (e.g., 'none', '???', 'N/A') that bypass standard `.isnull()` checks.
+* **The Remediation Pipeline:** The engine doesn't just flag data; it generates a **Simulated Remediation Map** to quantify "Recovery ROI":
+    * **Regex Standardization:** Automatically aligns varying string formats into a single unified key.
+    * **Null-Equivalent Neutralization:** Identifies and handles "junk strings" to prevent model skew.
+    * **Bias Correction:** Flags columns where >95% of values are identical, preventing "Dead-End Features" from reaching the model.
 * **Strategic Reporting:** End-to-end integration with `pandas`, `openpyxl`, and `python-pptx` to deliver automated Excel workbooks and PowerPoint decks.
 * **Modular Integration:** Designed as a plug-and-play **"In-Take Audit"** for any enterprise ETL pipeline or $1B+ remediation environment.
 
