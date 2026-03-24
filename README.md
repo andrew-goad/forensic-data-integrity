@@ -1,7 +1,7 @@
 # Universal Data Integrity & Forensic Diagnostic Engine
 **"No Cold Handoffs" — Engineering Zero-Defect, Audit-Ready Results.**
 
-![Universal Forensic Integrity Dashboard](https://raw.githubusercontent.com/andrew-goad/forensic-data-integrity/main/docs/executive_dashboard_preview.jpg)
+![Universal Forensic Integrity Dashboard](https://github.com/andrew-goad/forensic-data-integrity/blob/main/docs/executive_dashboard_preview.png)
 
 ---
 
