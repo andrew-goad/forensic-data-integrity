@@ -1,14 +1,14 @@
 # Universal Data Integrity: The Forensic "Gatekeeper" Engine 🛡️🔍
 **"No Cold Handoffs" — Engineering Zero-Defect, Audit-Ready Results.**
 
-![Universal Forensic Integrity Dashboard](https://github.com/andrew-goad/forensic-data-integrity/blob/main/docs/executive_dashboard_preview.png)
-
----
-
 ### 🎯 Strategic Intent: Forensic vs. Descriptive Quality
 **How do you ensure mathematical certainty for $1B+ models in high-stakes regulatory environments?**
 
 I engineered this Python-driven diagnostic engine to automate pipeline trust and eliminate technical debt at the source. Drawing on experience in federal regulation (**OCC**) and "Too Big to Fail" bank examinations, this system hunts for **forensic anomalies**—non-random noise and structural drifts—that traditional descriptive tools miss. By assigning a quantifiable **"Integrity Score"** to raw data, this framework ensures every downstream model is regulatory-defendable.
+
+---
+
+![Universal Forensic Integrity Dashboard](https://github.com/andrew-goad/forensic-data-integrity/blob/main/docs/executive_dashboard_preview.png)
 
 ---
 
