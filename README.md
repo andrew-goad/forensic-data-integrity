@@ -41,4 +41,4 @@ I engineered this Python-driven diagnostic engine to automate pipeline trust and
 **Data Privacy:** All data and visual outputs in this repository are generated from synthetic or anonymized datasets to protect proprietary information. This framework demonstrates the methodology applied to high-stakes enterprise and regulatory environments.
 
 ---
-**Philosophy:** “No Cold Handoffs”—engineering zero-defect, audit-ready results.
+**Philosophy:** **“No Cold Handoffs”**—engineering zero-defect, audit-ready results to ensure stakeholders internalize the underlying “why.”
